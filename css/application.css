@@ -27,7 +27,6 @@ iframe, object, embed {
 .home-doctors .common-doctor figure {
   overflow: hidden;
   width: 100%;
-    height: 250px;
 }
 
 .home-doctors img {
@@ -46,7 +45,7 @@ iframe, object, embed {
   margin-bottom: 20px;
 }
 .home-doctors .common-doctor .text-content {
-  padding: 19px 14px 13px;
+  padding: 8px 14px 13px;
 }
 .home-doctors.doctors-var-two {
   text-align: left;
