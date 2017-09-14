@@ -20,6 +20,9 @@
 
     <!-- Custom styles for this template -->
     <link href="css/full-slider.css" rel="stylesheet">
+    
+    <link href="vendor/lightGallery/css/lightgallery.min.css" rel="stylesheet">
+    <link href="vendor/lightGallery/css/lg-transitions.min.css" rel="stylesheet">    
 
   </head>
 
@@ -69,27 +72,27 @@
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
           <div class="carousel-item active">
-            <img src="images/image1.jpg" class="img-responsive" style="width:100%; height:100vh"/>
+            <img src="images/ithihasa/image1.jpg" class="img-responsive" style="width:100%; height:100vh"/>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item">
-            <img src="images/image2.jpg" class="img-responsive" style="width:100%; height:100vh"/>
+            <img src="images/ithihasa/image2.jpg" class="img-responsive" style="width:100%; height:100vh"/>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
           <div class="carousel-item">
-            <img src="images/image3.jpg"  class="img-responsive" style="width:100%; height:100vh" />
+            <img src="images/ithihasa/image3.jpg"  class="img-responsive" style="width:100%; height:100vh" />
           </div>
           <!-- Slide four - Set the background image for this slide in the line below -->
           <div class="carousel-item">
-            <img src="images/image4.jpg" class="img-responsive" style="width:100%; height:100vh"/>
+            <img src="images/style/image1.jpg" class="img-responsive" style="width:100%; height:100vh"/>
           </div>
           <!-- Slide five - Set the background image for this slide in the line below -->
           <div class="carousel-item">
-            <img src="images/image5.jpg" class="img-responsive" style="width:100%; height:100vh"/>
+            <img src="images/style/image2.jpg" class="img-responsive" style="width:100%; height:100vh"/>
           </div>
           <!-- Slide Six - Set the background image for this slide in the line below -->
           <div class="carousel-item">
-            <img src="images/image6.jpg" class="img-responsive" style="width:100%; height:100vh"/>
+            <img src="images/style/image3.jpg" class="img-responsive" style="width:100%; height:100vh"/>
           </div>                              
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -118,37 +121,40 @@ Humbled by our success and powered by our ambition, we are working more to enter
         <div class="row">
           <div class="col-md-4" style="padding-bottom: 1%;">          
             <div class="card" style="width: 20rem;">
-              <img class="card-img-top" src="images/image1.jpg" alt="Card image cap" style="height: 150px;">
+              <img class="card-img-top" src="images/ithihasa/image1.jpg" alt="Card image cap" style="height: 150px;">
               <div class="card-body">
                 <h4 class="card-title">Ithihasa</h4>
                 <p class="card-text"><strong>Director: </strong>Binu S.</br>
                 <strong>Starring:</strong> Shine Tom Chacko, Anusree, Balu Varghese</br>
                 <strong>Release:</strong> 10 October 2014</p>
                 <a href="https://www.youtube.com/watch?v=kPVZjmulWXE" target="_blank" class="btn btn-danger"><i class="fa fa-youtube"></i> Trailer</a>
+                <a href="#" class="btn btn-info" id="still1"><i class="fa fa-camera"></i> Stills</a>
               </div>
             </div>
           </div>
           <div class="col-md-4" style="padding-bottom: 1%;">
             <div class="card" style="width: 20rem;">
-              <img class="card-img-top" src="images/image5.jpg" alt="Card image cap" style="height: 150px;">
+              <img class="card-img-top" src="images/style/image1.jpg" alt="Card image cap" style="height: 150px;">
               <div class="card-body">
                 <h4 class="card-title">Style</h4>
                 <p class="card-text"><strong>Director:</strong> Binu S.</br>
                 <strong>Starring:</strong> Unni Mukundan, Tovino Thomas, Priyanka Kandwal</br>
                 <strong>Release:</strong> January 2, 2016</p>
                 <a href="https://www.youtube.com/watch?v=3ku0iZc5F78" target="_blank" class="btn btn-danger"><i class="fa fa-youtube"></i> Trailer</a>
+                <a href="#" class="btn btn-info" id="still2"><i class="fa fa-camera"></i> Stills</a>
               </div>
             </div> 
           </div>
           <div class="col-md-4" style="padding-bottom: 1%;">
             <div class="card" style="width: 20rem;">
-              <img class="card-img-top" src="images/image7.jpg" alt="Card image cap" style="height: 150px;">
+              <img class="card-img-top" src="images/kamuki/image1.jpg" alt="Card image cap" style="height: 150px;">
               <div class="card-body">
                 <h4 class="card-title">Kamuki</h4>
                 <p class="card-text"><strong>Director:</strong> Binu S.</br>
                 <strong>Starring:</strong></br></br>
                 <strong>Release:</strong> Coming Soon</p>
                 <a href="#" class="btn btn-danger"><i class="fa fa-hourglass-half"></i> Coming Soon</a>
+                <a href="#" class="btn btn-info" id="still3"><i class="fa fa-camera"></i> Stills</a>
               </div>
             </div> 
           </div>                   
@@ -163,6 +169,7 @@ Humbled by our success and powered by our ambition, we are working more to enter
                 <strong>Starring:</strong> Siju Wilson, Krishna Sankar, Shabareesh Varma</br>
                 <strong>Release:</strong> Coming Soon</p>
                 <a href="#" class="btn btn-danger"><i class="fa fa-hourglass-half"></i> Coming Soon</a>
+                <a href="#" class="btn btn-info" id="still4"><i class="fa fa-camera"></i> Stills</a>
               </div>
             </div> 
           </div>         
@@ -328,7 +335,9 @@ Humbled by our success and powered by our ambition, we are working more to enter
     <script src="vendor/popper/popper.min.js"></script>
     
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="js/new-age.min.js"></script>
+
 
   </body>
 
