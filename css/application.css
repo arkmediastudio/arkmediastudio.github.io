@@ -243,7 +243,6 @@ a.socialIcon:hover, .socialHoverClass {
     transition: all 0.2s;
 }
 .social-circle i {
-    color: #fff;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
     -o-transition: all 0.8s;
